@@ -1,0 +1,71 @@
+.food-search {
+  background-image: url("../../../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+@media screen  and (max-width: 768px ){
+
+    .food-search input[type="search"] {
+            width: 90%;
+            padding: 2%;
+            margin-bottom: 3%;
+    }
+}

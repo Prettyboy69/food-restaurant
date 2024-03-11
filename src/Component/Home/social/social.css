@@ -1,0 +1,28 @@
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
